@@ -1,4 +1,4 @@
-# Miami Housing Price Prediction
+# Sunshine Miami: Unveiling Real Estate AI
 
 This project aims to predict housing prices in Miami using various regression models. The dataset includes multiple features related to housing prices, and three regression models are implemented: Linear Regression, KNeighbors Regressor, and Random Forest Regressor.
 
