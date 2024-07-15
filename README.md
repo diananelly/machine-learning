@@ -13,47 +13,53 @@ This project aims to predict housing prices in Miami using various regression mo
   - [Random Forest Regressor](#random-forest-regressor)
 - [Conclusion](#conclusion)
 
+Installation <a name="installation"></a>
+-Install Jupyter notebook.
+-Install scikit-learn library.
+-Run `Machine Learning algorithms on Miami Housing Dataset.ipynb`
+
 Data Overview <a name="data-overview"></a>
 
-The dataset miami-housing.csv contains various features related to housing prices in Miami. The target variable is SALE_PRC (Sale Price).
-Data Preprocessing
+The dataset `miami-housing.csv` contains various features related to housing prices in Miami. The target variable is SALE_PRC (Sale Price).
 
-    Load the dataset and check for duplicates and missing values.
-    Drop duplicate rows and unnecessary columns.
-    Split the dataset into training and testing sets.
-    Scale the features using StandardScaler.
+Data Preprocessing <a name="data-preprocessing"></a>
 
-Data Visualization
+-Load the dataset and check for duplicates and missing values.
+-Drop duplicate rows and unnecessary columns.
+-Split the dataset into training and testing sets.
+-Scale the features using StandardScaler.
 
-    Boxplot of Sale Price.
-    Heatmap of feature correlations.
-    Boxplot of Sale Price distribution by month sold.
-    Scatter plots of Sale Price against various features.
+Data Visualization <a name="data-visualization"></a>
 
-Models and Evaluation
-Linear Regression
+-Boxplot of Sale Price.
+-Heatmap of feature correlations.
+-Boxplot of Sale Price distribution by month sold.
+-Scatter plots of Sale Prices against various features.
 
-    Fit the Linear Regression model to the training data.
-    Make predictions on the test data.
-    Evaluate the model using Mean Squared Error (MSE), Root Mean Squared Error (RMSE), Mean Absolute Error (MAE), and R-squared.
-    Plot actual vs. predicted values.
+Models and Evaluation <a name="models-and-evaluation"></a>
+Linear Regression <a name="linear-regression"></a>
 
-KNeighbors Regressor
+-Fit the Linear Regression model to the training data.
+-Make predictions on the test data.
+-Evaluate the model using Mean Squared Error (MSE), Root Mean Squared Error (RMSE), Mean Absolute Error (MAE), and R-squared.
+-Plot actual vs. predicted values.
 
-    Implement KNeighbors Regressor with uniform and distance weights.
-    Fit the model to the training data.
-    Make predictions on the test data.
-    Evaluate the model using MSE, RMSE, MAE, and R-squared.
-    Plot actual vs. predicted values.
+KNeighbors Regressor <a name="kneighbors-regressor"></a>
 
-Random Forest Regressor
+-Implement KNeighbors Regressor with uniform and distance weights.
+-Fit the model to the training data.
+-Make predictions on the test data.
+-Evaluate the model using MSE, RMSE, MAE, and R-squared.
+-Plot actual vs. predicted values.
 
-    Fit the Random Forest Regressor model to the training data.
-    Make predictions on the test data.
-    Evaluate the model using MSE, RMSE, MAE, and R-squared.
-    Plot actual vs. predicted values.
+Random Forest Regressor <a name="random-forest-regressor"></a>
 
-Conclusion
+-Fit the Random Forest Regressor model to the training data.
+-Make predictions on the test data.
+-Evaluate the model using MSE, RMSE, MAE, and R-squared.
+-Plot actual vs. predicted values.
+
+Conclusion <a name="conclusion"></a>
 
 This project demonstrates the process of predicting housing prices using different regression models. The evaluation metrics provide insights into the performance of each model. The Random Forest Regressor typically performs better due to its ability to handle non-linear relationships and interactions between features.
 
