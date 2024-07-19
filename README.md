@@ -14,8 +14,13 @@ This project aims to predict housing prices in Miami using various regression mo
 - [Conclusion](#conclusion)
 
 Installation <a name="installation"></a>
-  - Install Jupyter notebook.
-  - Install scikit-learn library.
+  - Install Python 3.12.  
+  - Install Jupyter Notebook.
+  - Install `scikit-learn` library.
+  - Install `pandas` library.
+  - Install `numpy` library.
+  - Install `matplotlib` library.
+  - Install `seaborn` library.
   - Run `Machine Learning algorithms on Miami Housing Dataset.ipynb`
 
 Data Overview <a name="data-overview"></a>
